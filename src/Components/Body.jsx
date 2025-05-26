@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
-import Context from "../context/Context";
-import Upload from "./Upload";
-import Colors from "./Colors";
+import Context from "../context/Context.js";
+import Upload from "./Upload.jsx";
+import Colors from "./Colors.jsx";
 
 const Body = () => {
   const { setActiveTab, activeTab, response} =

@@ -1,6 +1,6 @@
 import React from "react";
 import { useContext } from "react";
-import Context from "../context/Context";
+import Context from "../context/Context.js";
 
 const Header = () => {
   const {handleStart}=useContext(Context)
